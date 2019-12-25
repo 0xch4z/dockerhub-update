@@ -38,7 +38,7 @@ Updates description and readme file (to locally specified file) for repository l
 ### Via docker
 
 ```sh
-docker run -e DOCKERHUB_USERNAME -e DOCKERHUB_PASSWORD
+docker run -e DOCKERHUB_USERNAME -e DOCKERHUB_PASSWORD \
   -v $(PWD)/myreadmefile.md:/data/myreadmefile.md:ro \
   charliekenney23/dockerhub-update \
   -d "My description" -r /data/myreadmefile.md \
