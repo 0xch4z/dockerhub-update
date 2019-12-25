@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"os"
+
+	update "github.com/charliekenney23/dockerhub-update"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	if err := update.Entrypoint.Run(os.Args); err != nil {
+		log.Fatal(err)
+	}
 }

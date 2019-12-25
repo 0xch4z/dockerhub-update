@@ -1,0 +1,6 @@
+.git
+Dockerfile
+dist
+.travis.yml
+Makefile
+README.md
