@@ -33,7 +33,7 @@ dockerhub-update -u myusername -p ********** \
   myusername/myrepo
 ```
 
-Updates description and readme file (to locally specified file) for repository located at `hub.docker.com/myusername/myrepo`.
+Updates description and readme file (to locally specified file) for repository located at `hub.docker.com/r/myusername/myrepo`.
 
 ### Via docker
 
