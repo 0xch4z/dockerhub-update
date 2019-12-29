@@ -1,0 +1,20 @@
+language: go
+
+services:
+  - docker
+
+env:
+  - GO111MODULE=on
+
+notifications:
+  email:
+    on_success: never
+    on_failure: true
+
+deploy:
+  provider: script
+  script: bash hack/docker_push.sh
+  on:
+    branch: master
+
+script: make
