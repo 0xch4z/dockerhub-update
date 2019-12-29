@@ -3,6 +3,9 @@ language: go
 services:
   - docker
 
+env:
+  - GO111MODULE=on
+
 notifications:
   email:
     on_success: never
