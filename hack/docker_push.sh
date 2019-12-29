@@ -10,7 +10,7 @@ fi
 
 docker push $IMG
 
-docker run -v $(PWD)/README.md:/data/README.md:ro -t "$IMG" \
+docker run -v $(PWD)/README.md:/data/README.md:ro -t \
   -e DOCKERHUB_USERNAME="$DOCKER_USERNAME" \
   -e DOCKERHUB_PASSWORD="$DOCKER_PASSWORD" \
-  -r /data/README.md $IMG
+  "$IMG" -r /data/README.md $IMG
