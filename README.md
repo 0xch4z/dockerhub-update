@@ -52,4 +52,4 @@ Copyright &copy; 2019 [Charles Kenney][me]
 This project is [MIT][license] licensed.
 
 [me]: https://github.com/charliekenney23
-[license]: https://github.com/charliekenney23/dockerhub-update/tree/master/README.md
+[license]: https://github.com/charliekenney23/dockerhub-update/tree/master/LICENSE
