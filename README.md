@@ -1,4 +1,4 @@
-# Dockerhub update
+# Dockerhub update [![Build Status][travis-ci-badge]][travis-ci]
 
 > Update your Dockerhub repository
 
@@ -53,3 +53,5 @@ This project is [MIT][license] licensed.
 
 [me]: https://github.com/charliekenney23
 [license]: https://github.com/charliekenney23/dockerhub-update/tree/master/LICENSE
+[travis-ci-badge]: https://travis-ci.org/Charliekenney23/dockerhub-go.svg?branch=master
+[travis-ci]: https://travis-ci.org/Charliekenney23/dockerhub-go
