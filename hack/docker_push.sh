@@ -10,7 +10,7 @@ fi
 
 docker push $IMG
 
-docker run -v $(PWD)/README.md:/data/README.md:ro -t \
+docker run -v $TRAVIS_BUILD_DIR/README.md:/data/README.md:ro -t \
   -e DOCKERHUB_USERNAME="$DOCKER_USERNAME" \
   -e DOCKERHUB_PASSWORD="$DOCKER_PASSWORD" \
   "$IMG" -r /data/README.md $IMG
